@@ -11,6 +11,11 @@ import csv
 
 #Save home directory
 home_path = os.getcwd()
+'''
+Changing the working directory is acutually bad practice. However, I receiven 
+an "OSError: Initializing from file failed" error when handing over the full 
+file path to read_csv. Unfortunatly I did not find a way to resolve this yet.
+'''
 
 # Merge Scopus files-----------------------------------------------------------
 '''****************************************************************************
